@@ -1,0 +1,48 @@
+$border-color: #e9e4d9;
+$decoration-h3-color: darksalmon;
+$decoration-hover: lightgray;
+
+h1 h2 {
+  /*font-family: Passion One, sans-serif;*/
+}
+
+.title {
+  text-align: center;
+}
+.decoration {
+  text-align: center;
+  /*border: 2px solid $border-color;*/
+  padding: 2%;
+  width: 90%;
+  opacity: 0.7;
+  transform: scale(1.1);
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+}
+
+.decoration h3 {
+  color: $decoration-h3-color;
+}
+
+.decoration:hover {
+  margin-left: -50px;
+  width: 100%;
+  opacity: 1;
+}
+
+.secondtitle,
+.entry *:not(.fpcontent):not(.qa-faq) .secondtitle,
+.entry .secondtitle {
+  font-size: 17px;
+  color: #444;
+  line-height: 25px;
+  text-align: center;
+  margin: 20px auto 0 auto;
+  text-shadow: 2px 2px 1px #fff;
+  display: table;
+  background: rgba(255, 255, 255, 1);
+  padding: 10px;
+  font-weight: 300;
+  border-radius: 5px;
+}
